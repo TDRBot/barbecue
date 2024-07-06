@@ -1,7 +1,7 @@
 <html>
   <head>
   </head>
-  <body>
+  <body onload="alertbacon()">
     <h1>Bacon Burger</h1>
     <p>The Bacon Burger Movement starts NOW.</p>
     <br>
@@ -23,9 +23,11 @@ function myFunction() {
 
   // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.value);
-  
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
+
 }
 </script>
+    <script>
+      function alertbacon() {
+        alert("You're at the Bacon Burger Movement page. Click OK to continue.")
+    </script>
   </body>
