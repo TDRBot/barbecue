@@ -2,6 +2,29 @@
   <head>
   </head>
   <body>
-    <h1>barbecue</h1>
-    <p>among us</p>
+    <h1>Bacon Burger</h1>
+    <p>The Bacon Burger Movement starts NOW.</p>
+    <br>
+    <br>
+    <p>Spread the cause of the Bacon Burger Movement with this link</p>
+    <p>http://among-dash-bacon-burger.mooo.com/</p>
+    <br>
+    <p>Copy and paste this everywhere.</p>
+    <button onclick="myFunction()">Copy Bacon Burger Movement link.</button>
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = "http://among-dash-bacon-burger.mooo.com/";
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+</script>
   </body>
