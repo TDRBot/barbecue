@@ -11,10 +11,11 @@
     <br>
     <p>Copy and paste this everywhere.</p>
     <button onclick="myFunction()">Copy Bacon Burger Movement link.</button>
+    <input type="text" value="http://among-dash-bacon-burger.mooo.com/" style="display: none;" id="myInput">
 <script>
 function myFunction() {
   // Get the text field
-  var copyText = "http://among-dash-bacon-burger.mooo.com/";
+  var copyText = document.getElementById("myInput");
 
   // Select the text field
   copyText.select();
